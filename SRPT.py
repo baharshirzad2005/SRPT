@@ -109,3 +109,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+Gantt Chart:
+P1 (0-1) | P2 (1-2) | P3 (2-4) | P4 (4-5) | P2 (5-8) | P1 (8-15) |
+
+Process Results:
+PID     AT    BT    CT    TAT    WT
+P1      0     8     15    15     7
+P2      1     4     8     7      3
+P3      2     2     4     2      0
+P4      3     1     5     2      1
+
+Average Waiting Time: 2.75
+Average Turnaround Time: 6.50
