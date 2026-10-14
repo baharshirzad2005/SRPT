@@ -1,4 +1,3 @@
-
 def srpt_scheduling(processes):
     n = len(processes)
 
